@@ -1,0 +1,15 @@
+{
+  "name": "cryptography",
+  "version": "1.0.0",
+  "description": "Implementation of RSA encryption algorithm.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node main.js"
+  },
+  "author": "Mateus Cardoso",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node-rsa": "^1.1.1",
+    "node-rsa": "^1.1.1"
+  }
+}
